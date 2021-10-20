@@ -1,0 +1,99 @@
+* {  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display:flex;
+}
+
+.card {
+    width: 50%;
+    margin:50px 0 50px 50px; 
+    border: solid 2px #ccccca;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-1 {
+    margin: 20px 0px 0px 20px;
+}
+
+.card:last-of-type {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+hr {
+    color: #ccccca;
+}
+
+img {
+    float: right;
+    margin: 5px 15px 0 0;
+    height: 50px;
+}
+
+h1 {
+    display: inline;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+h2 {
+    color:#969696;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.divider {
+    border-top:solid 1px #ccccca;
+}
+
+.buttons {
+    text-align: center;
+    display: -moz-grid-line;
+    margin:15px;
+}
+
+.approve {
+    color: limegreen;
+    font-size: 19px;
+    background-color: #fff;
+    border:solid 2px limegreen;
+    margin-right:0;
+    border-radius: 6px 0px 0px 6px; 
+}
+
+.decline {
+    color:red;
+    font-size: 19px;
+    background-color: white;
+    border: solid 2px red;
+    margin-left: 0;
+    border-radius: 0px 6px 6px 0px; 
+}
+
+[type]:last-of-type {
+    left: -10px;
+    position: relative;
+}
+
+[type]{
+    padding: 15px 55px 15px 55px;
+}
+
